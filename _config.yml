@@ -33,7 +33,7 @@ permalink: articles/:title
 collections:
   mathematics:
     output: true
-    permalink: /mathematics/:title
+    permalink: mathematics/:title
 
 
 # Default values for collections
