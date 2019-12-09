@@ -47,7 +47,7 @@ ___
 
 <br><br>
 <div class="text-center">
-<a href="/mathematics/" class="m-1 btn btn-secondary btn-md"> <i class="fas fa-chevron-left"></i> Let start Mathematics </a>
-<a href="/articles/" class="m-1 btn btn-primary btn-md">Let start Machine Learning <i class="fas fa-chevron-right"></i></a>
+<a href="mathematics/" class="m-1 btn btn-secondary btn-md"> <i class="fas fa-chevron-left"></i> Let start Mathematics </a>
+<a href="articles/" class="m-1 btn btn-primary btn-md">Let start Machine Learning <i class="fas fa-chevron-right"></i></a>
 </div>
 
