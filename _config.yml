@@ -29,6 +29,21 @@ author:
 # Posts default Permalink
 permalink: articles/:title
 
+# Collections
+collections:
+  mathematics:
+    output: true
+    permalink: /mathematics/:title
+
+
+# Default values for collections
+defaults:
+  - scope:
+      path: ""
+      type: "mathematics"
+    values:
+      layout: "page"
+
 
 
 # Exclude from processing.
