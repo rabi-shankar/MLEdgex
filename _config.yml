@@ -42,7 +42,7 @@ defaults:
       path: ""
       type: "mathematics"
     values:
-      layout: "page"
+      layout: "mathematic"
 
 
 

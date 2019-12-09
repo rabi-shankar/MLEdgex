@@ -1,7 +1,7 @@
 ---
-name: Mathematical Modelling
+name: Statistics
 tags: [C#, XML, WPF]
-weight: 1
+weight: 4
 description: This project has an individual showcase page, not just a direct link to the project site or repo.
 ---
 

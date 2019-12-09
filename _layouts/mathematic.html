@@ -3,11 +3,12 @@ layout: page
 ---
 
 
-{% include back-to-articles.html %}
+{% include back-to-mathematics.html %}
 <h1><b>{{ page.title }}</b></h1>
 
 <p class="article-metadata text-muted">
-    <i class="fas fa-user-edit"></i> {{ page.date | date_to_long_string }}
+      <i class="fas fa-user-edit"></i> {{ page.date | date_to_long_string }}
+    
     
     <i class="far fa-clock"></i> <b>
   {% assign words = content | number_of_words %}
@@ -34,4 +35,4 @@ layout: page
 
 {{ content }}
 
-{% include back-to-articles.html %}
+{% include back-to-mathematics.html %}
