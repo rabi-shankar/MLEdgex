@@ -26,29 +26,23 @@ author:
   facebook : username
 
 
+# Posts default Permalink
+permalink: articles/:title
+
+# Collections
+collections:
+  mathematics:
+    output: true
+    permalink: /mathematics/:title
+
+
 # Default values for collections
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "mathematics"
     values:
-      layout: "page"
-
-
-# Posts default Permalink
-permalink: articles/:title
-
-
-# Snippets default Permalink
-#permalink: snippets/:title
-
-# Default values for collections
-#defaults:
-#  - scope:
-#     path: ""
-#     type: "snippets"
-#    values:
-#      layout: "page"
+      layout: "mathematic"
 
 
 

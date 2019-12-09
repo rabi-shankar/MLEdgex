@@ -1,13 +1,15 @@
 ---
-layout: page
-title: Mathematics
-permalink: /mathematics/
-weight: 2
+title: Mathematics for ML
+tags: [ML, Mathematics]
+style: 
+color: 
+weight: 4
+description: Machine learning (ML) uses many techniques to create algorithms to learn and make predictions from data sets.
 ---
 
-# **Mathematics for Machine Learning**
+Source: [Nikhil Thota](https://medium.com/@nikhilthota/digital-minimalism-ac083064b4e4)
 
-###### Machine learning uses tools from a variety of mathematical field.
+##### Machine learning uses tools from a variety of mathematical field.
 
 {%- capture list_items -%}
 
@@ -71,3 +73,9 @@ ___
 
 
 
+
+<br><br>
+#### References
+> {% include reference.html text ="2" title="Alpaydin, Ethem (2010). Introduction to Machine Learning. London: The MIT Press. ISBN 978-0-262-01243-0. Retrieved 4 February 2017."  %} - Alpaydin, Ethem (2010). Introduction to Machine Learning. London: The MIT Press. ISBN 978-0-262-01243-0. Retrieved 4 February 2017.
+
+> <footer>[2] - Alpaydin, Ethem (2010). Introduction to Machine Learning. London: The MIT Press. ISBN 978-0-262-01243-0. Retrieved 4 February 2017.</footer>
