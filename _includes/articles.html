@@ -1,13 +1,12 @@
 <div class="card-group mt-2">
-
   {% assign sortedPosts = site.posts | sort: 'weight' %}
   {% for post in sortedPosts %}
     {% comment %} Default Styles {% endcomment %}
     {% assign card_style = '' %}
     {% assign text_style = 'text-dark' %}
-    {% assign badge_style = 'badge-dark' %}
-    
-    {% comment %} Update Styles {% endcomment %}
+    {% assign badge_style = 'badge-muted' %}
+
+    <!-- {% comment %} Update Styles {% endcomment %}
     {% if post.style == 'fill' %}
       {% assign card_style = post.color | prepend: 'bg-' %}
       {% if post.color != 'light' %}
@@ -20,7 +19,7 @@
       {% if post.color %}
         {% assign badge_style =  post.color | prepend: 'badge-' %}
       {% endif %}
-    {% endif %}
+    {% endif %}-->
 
     {% comment %} Determine Article URL {% endcomment %}
     {% if post.external_url %}
