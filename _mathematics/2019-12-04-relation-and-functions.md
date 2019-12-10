@@ -1,9 +1,11 @@
 ---
-name: Functions
+name: Relation and Functions
 tags: [C#, XML, WPF]
 weight: 3
 description: This project has an individual showcase page, not just a direct link to the project site or repo.
 ---
+
+{% include quote2.html quote = "There is no permanent place in the world for ugly mathematics ... . It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite what we mean by a beautiful poem, but that does not prevent us from recognising one when we read it." by="G. H. HARDY" %}   
 
 #### Cauchy's Integral Formula
 \\( f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\\)

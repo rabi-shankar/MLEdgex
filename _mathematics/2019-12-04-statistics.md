@@ -5,6 +5,8 @@ weight: 4
 description: This project has an individual showcase page, not just a direct link to the project site or repo.
 ---
 
+{% include quote2.html quote = "The theory of probabilities is simply the Science of logic quantitatively treated." by="C.S. PEIRCE" %}  
+
 #### Cauchy's Integral Formula
 \\( f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\\)
 

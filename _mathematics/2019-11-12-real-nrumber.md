@@ -5,6 +5,9 @@ weight: 2
 description: This project has an individual showcase page, not just a direct link to the project site or repo.
 ---
 
+{% include quote2.html quote = "In these days of conflict between ancient and modern studies; there must surely be something to be said for a study which did not begin with Pythagoras and will not end with Einstein; but is the oldest and the youngest." by="G.H. HARDY" %}  
+
+
 #### Cauchy's Integral Formula
 \\( f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\\)
 
