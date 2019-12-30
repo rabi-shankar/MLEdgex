@@ -8,14 +8,7 @@ layout: null
       "category" : "{{ mathematic.category }}",
       "tags"     : "{{ mathematic.tags | join: ', ' }}",
       "url"      : "{{ mathematic.external_url | default: mathematic.url | relative_url }}",
-      "date"     : "{{ mathematic.date }}",
-      "id"     : "{{ mathematic.id }}",
-      "dir"     : "{{ mathematic.dir }}",
-      "name"     : "{{ mathematic.name }}",
-      "path"     : "{{ mathematic.path }}",
-      "collection"     : "{{ mathematic.collection }}",
-      "dir"     : "{{ mathematic.dir }}"
-  
+      "date"     : "{{ mathematic.date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
