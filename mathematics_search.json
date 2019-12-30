@@ -13,7 +13,6 @@ layout: null
       "dir"     : "{{ mathematic.dir }}",
       "name"     : "{{ mathematic.name }}",
       "path"     : "{{ mathematic.path }}",
-      "previous"     : "{{ mathematic.previous }}",
       "collection"     : "{{ mathematic.collection }}",
       "dir"     : "{{ mathematic.dir }}",
       "content"     : "{{ mathematic.content }}"
