@@ -153,7 +153,7 @@ ___
 ___
 
 ##### Overfitting 
-> ToDo
+> When predictor whose performance on the training set is excellent,but its performance on the true <b>world</b> is very poor. This phenomenon is called overftting.
 
 {% include /movetop.html %}
 ##  P
