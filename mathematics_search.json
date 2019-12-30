@@ -14,8 +14,7 @@ layout: null
       "name"     : "{{ mathematic.name }}",
       "path"     : "{{ mathematic.path }}",
       "collection"     : "{{ mathematic.collection }}",
-      "dir"     : "{{ mathematic.dir }}",
-      "content"     : "{{ mathematic.content }}"
+      "dir"     : "{{ mathematic.dir }}"
   
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
