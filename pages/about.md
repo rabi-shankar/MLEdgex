@@ -5,11 +5,30 @@ permalink: /about/
 weight: 5
 ---
 
-# **Me**
 
-Hi I am **{{ site.author.name }}**,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+### What is MLEdgex
+---
+Welcome, MLEdgex  is an educational resource that makes it easier to learn about Machine learning (ML).
 
-<div class="row">
-{% include skills.html title="Programming Skills" source=site.data.programming-skills %}
-</div>
+This module contains a variety of helpful resources, including:
+> **Short introduction ML** 
+
+> **Basic theory**
+
+> **Kinds of algorithms**
+
+> **Mathematics for ML**
+
+> **ML glossary**
+
+> **Concept Memory Map** (coming soon)
+
+> **ML Chatsheet** (coming soon)
+
+> **List of important papers organized by topic** (coming soon)
+
+> **Few exercises to serve as warm-ups** (coming soon)
+
+> **Tensrorflow 2.0** (coming soon)
+
+> **External Resources**
